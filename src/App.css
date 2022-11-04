@@ -2,13 +2,6 @@
   text-align: center;
 }
 
-.wrapper {
-  text-align: center;
-  font-family: "Inter";
-  padding: 1em;
-  position: relative;
-  margin: auto 0;
-}
 #profile-nav__desktop {
   display: none;
 }
@@ -122,9 +115,6 @@ a:active {
 }
 
 @media (min-width: 600px) {
-  .wrapper {
-    font-size: 0.9em;
-  }
   #profile-nav__mobile {
     display: none;
   }
@@ -158,9 +148,6 @@ a:active {
 }
 
 @media (min-width: 992px) {
-  .wrapper {
-    font-size: 0.9em;
-  }
   .profile-nav-icon {
     position: relative;
     right: 30em;
