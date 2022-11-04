@@ -10,9 +10,22 @@ button {
   background-color: #1570ef;
   color: rgba(255, 255, 255, 0.95);
 }
+.button1:disabled {
+  background-color: #b2ddff;
+}
+.button1-disabled {
+  background-color: #b2ddff;
+}
+.button1:hover {
+  background-color: #175cd3;
+}
+.button1:active {
+  outline: 2px solid #1570ef5d;
+}
 #profile-nav__desktop {
   display: none;
 }
+
 .profile-nav {
   display: flex;
   justify-content: flex-end;

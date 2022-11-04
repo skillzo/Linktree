@@ -29,4 +29,9 @@ export const profile = [
     link: "https://books.zuri.team/design-rules",
     id: "book_design",
   },
+  {
+    name: "Contact Me",
+    link: "/contact",
+    id: "contact",
+  },
 ];
